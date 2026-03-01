@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0f172a; 
+    .calc{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+input{
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 27px;
+}
+.btn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button{
+    height: 80px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.nol{
+    grid-column: span 2;
+    font-size: 20px;
+}
+.teng{
+    background-color: olive;
+    font-size: 20px;
+}
+.vz:hover{
+    background-color: olive;
+    cursor: pointer;
+}
+.lz{
+    color: red;
+    font-size: 20px;
+}
+.zz{
+    color: green;
+    font-size: 20px;
+}
+.zz:hover{
+    color: white;
+    background-color: firebrick;
+}
+.lz:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
+    
+    .teng:hover{
+        background-color: salmon;
+    }

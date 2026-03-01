@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="calc">
+        <input type="text" id="ekran" disabled>
+        <div class="btn">
+            <button class="lz" onclick="uchir()">C</button>
+            <button class="zz" onclick="qaytar()">>></button>
+            <button class="zz" onclick="qush('%')">%</button>
+            <button class="zz" onclick="qush('/')">÷</button>
+
+            <button class="vz" onclick="qush('7')">7</button>
+            <button class="vz" onclick="qush('8')">8</button>
+            <button class="vz" onclick="qush('9')">9</button>
+            <button class="zz" onclick="qush('*')">x</button>
+
+            <button class="vz" onclick="qush('4')">4</button>
+            <button class="vz" onclick="qush('5')">5</button>
+            <button class="vz" onclick="qush('6')">6</button>
+            <button class="zz" onclick="qush('-')">-</button>
+
+            <button class="vz" onclick="qush('1')">1</button>
+            <button class="vz" onclick="qush('2')">2</button>
+            <button class="vz" onclick="qush('3')">3</button>
+            <button class="zz" onclick="qush('+')">+</button>
+
+            <button class="vz" class="nol" onclick="qush('0')">0</button>
+            <button class="vz" onclick="qush('.')">.</button>
+            <button class="teng" onclick="teng()">=</button>
+            
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
